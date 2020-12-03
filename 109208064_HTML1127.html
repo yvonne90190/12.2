@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <table border="1">
+    <thead>
+      <tr>
+       <th colspan="3"><b>About me --108306XXX</b></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th rowspan="3">
+          <img src="oop.jpg" alt="" width="200" height="200">
+        </th>
+        <td colspan="2">
+        
+            <label for="Name">Name:</label><br>
+            <input type="text" id="Name" name="Name" maxlength="9"><br>
+          
+       
+            <input type="radio" id="Gender1" name="Gender" value="Male">
+            <label for="Gender1">Male</label>
+            <input type="radio" id="Gender2" name="Gender" value="Female" checked>
+            <label for="Gender2">Female</label>
+            <input type="radio" id="Gender3" name="Gender" value="Other">
+            <label for="Gender3">Other</label><br>
+         
+        </td>
+       </tr>
+
+        <tr>
+         <td> 
+               <label for="County">County:</label>
+               <select name="County" id="County">
+               <option value="Taipei" selected>Taipei</option>
+               <option value="Taoyuan">Taoyuan</option>
+               <option value="Tainan">Tainan</option>    
+               </select>
+             
+         </td>
+         <td>
+               Birthday:<input type="date" name="bookdate">
+         </td> 
+         </tr>   
+        <tr>
+          <td>
+           <label for="email">E-mail:</label>
+          </td>
+          <td colspan="2">
+                <form action="/action_page.php">
+                <input type="email" id="email" name="email" placeholder="name@doamin.com"   required><br>
+                </form>
+          </td>
+        </tr>   
+
+        <tr>
+           <td>
+              Hobby
+           </td>
+           <td colspan="2">
+              <form action="/action_page.php">
+              <label for="hobby">Hobby</label>
+              <input type="checkbox" id="hobby1" name="hobby1" value="Swimming">
+              <label for="hobby1">Swimming</label>
+              <input type="checkbox" id="hobby2" name="hobby2" value="Volleyball">
+              <label for="hobby2">Volleyball</label>
+              <input type="checkbox" id="hobby3" name="hobby3" value="Movies">
+              <label for="hobby3">Movies</label><br>
+              </form>
+           </td>
+        </tr>
+        <tr>
+           <td>
+                <label for="skill">Skill</label>
+           </td>
+           <td>
+               <form action="/action_page.php">
+              
+                <input type="checkbox" id="skill1" name="skill1" value="Java">
+                <label for="skill1">Java</label>
+                <input type="checkbox" id="skill2" name="skill2" value="HTML">
+                <label for="skill2">HTML</label>
+                <input type="checkbox" id="skill3" name="skill3" value="Python">
+               <label for="skill3">Python</label><br>
+              </form>
+           </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="say something">Say Something</label>
+          </td>
+          <td colspan="2">
+             <form action="">
+               
+               <textarea id="say something" name="say something" rows="4" cols="50">
+               Say something here.
+               </textarea>
+               </form>
+          </td>
+        </tr>
+   
+        <tr>
+            
+          <th colspan="3">  
+            <form action="/action_page.php">
+             <input type="reset" value="Reset">
+             <input type="submit" value="Submit" >
+           
+          </th>
+        </tr>
+
+  </tbody>
+</body>
+</html>
